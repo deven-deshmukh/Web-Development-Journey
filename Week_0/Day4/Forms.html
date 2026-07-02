@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Student Registration Form</h1>
+    <table style="background-color: blueviolet; color: white;">
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" name="firstName" placeholder="Enter your first name"></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" name="lastName" placeholder="Enter your last name"></td>
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td><input type="date" name="dateOfBirth"></td>
+        </tr>
+        <tr>
+            <td>Mobile No.</td>
+            <td><input type="tel" name="mobileNo" placeholder="Enter only 10 digit number"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><textarea name="address" placeholder="Enter your address"></textarea></td>
+        </tr>
+        <tr>
+            <td>CITY</td>
+            <td><input type="text" name="city" placeholder="Enter city name: 30char,a-z and A-Z"></td>
+        </tr>
+        <tr>
+            <td>Pin Code</td>
+            <td><input type="text" name="pinCode" placeholder="Enter pin code with 8 digits"></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td><input type="text" name="state" placeholder="Enter state name: 30char,a-z and A-Z"></td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td><input type="text" name="country" placeholder="Enter country name: 30char,a-z and A-Z"></td>
+        </tr>
+        <tr>
+            <td>Hobbies</td>
+            <td>
+                <input type="checkbox" name="hobbies" value="reading">
+                <label for="reading">Reading</label>
+                <input type="checkbox" name="hobbies" value="writing">
+                <label for="writing">Writing</label>
+                <input type="checkbox" name="hobbies" value="sports">
+                <label for="sports">Sports</label>
+                <input type="checkbox" name="hobbies" value="music">
+                <label for="music">Music</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Qualification</td>
+            <td>
+                <table style="border: 3px solid black;">
+                    <thead>
+                        <tr>
+                            <th>Sr.No</th>
+                            <th>Examination</th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                            <th>Year of Passing</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td><input type="text" name="board1" placeholder="Enter board name(10 chars only)"></td>
+                            <td><input type="text" name="percentage1" placeholder="Enter percentage(10 chars only)">
+                            </td>
+                            <td><input type="text" name="yearOfPassing1"
+                                    placeholder="Enter year of passing(10 chars only)"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><input type="text" name="board2" placeholder="Enter board name(10 chars only)"></td>
+                            <td><input type="text" name="percentage2" placeholder="Enter percentage(10 chars only)">
+                            </td>
+                            <td><input type="text" name="yearOfPassing2"
+                                    placeholder="Enter year of passing(10 chars only)"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input type="text" name="board3" placeholder="Enter board name(10 chars only)"></td>
+                            <td><input type="text" name="percentage3" placeholder="Enter percentage(10 chars only)">
+                            </td>
+                            <td><input type="text" name="yearOfPassing3"
+                                    placeholder="Enter year of passing(10 chars only)"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Master's</td>
+                            <td><input type="text" name="board4" placeholder="Enter board name(10 chars only)"></td>
+                            <td><input type="text" name="percentage4" placeholder="Enter percentage(10 chars only)">
+                            </td>
+                            <td><input type="text" name="yearOfPassing4"
+                                    placeholder="Enter year of passing(10 chars only)"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Courses<p> Applied for</td>
+            <td>
+                <input type="checkbox" name="hobbies">
+                <label for="reading">BCA</label>
+                <input type="checkbox" name="hobbies">
+                <label for="writing">B.Com</label>
+                <input type="checkbox" name="hobbies">
+                <label for="sports">B.Sc</label>
+                <input type="checkbox" name="hobbies">
+                <label for="music">B.A</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td><input type="button" value="Submit"></td>
+            <td><input type="reset" value="Reset"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
